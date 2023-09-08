@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextAppearance.Material3.TitleMedium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Hai Binarian," />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Mau makan apa hari ini?"
+            android:textStyle="italic"
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="71dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="100dp"
+        tools:src="@drawable/bag" />
+
+    <ImageView
+
+        android:layout_width="86dp"
+        android:layout_height="31dp"
+        tools:src="@drawable/account" />
+
+
+
+
+</LinearLayout>
