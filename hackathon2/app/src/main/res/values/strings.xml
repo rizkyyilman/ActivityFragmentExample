@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">hackathon2</string>
+    <string name="text_last">Last Transaction</string>
+    <string name="text_detail">Details</string>
+    <string name="text_date">Today, Nov 30</string>
+    <string name="text_topup">Top Up</string>
+</resources>
